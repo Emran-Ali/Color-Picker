@@ -1,0 +1,27 @@
+body {
+    font-family: var(--ff-secondary);
+    background: var(--clr-grey-10);
+    color: var(--clr-grey-1);
+    line-height: 1.5;
+    font-size: 0.875rem;
+   
+  }
+  main {
+    margin: auto;
+    border: 2px solid black;
+    width: 80%;
+    height: inherit;
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+  }
+  nav {
+    background: var(--clr-white);
+    box-shadow: var(--light-shadow);
+    place-items: center;
+  }
+  .nav-center
+  {
+      text-align: center;
+      
+  }
